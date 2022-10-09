@@ -30,11 +30,13 @@ def sortFile(currFileName, numsPerFile, fileInd, rest = 0):
 
     unsortedArr = array.array('L')
     unsortedArr.fromfile(currFile, numsPerFile + rest)
+    unsortedArr.byteswap()
     sortStartTime = time.time()
     li = unsortedArr.tolist()
     li.sort()
     arr = array.array('L')
     arr.fromlist(li)
+    arr.byteswap()
     sortEndTime = time.time()
     print(f"Sorting done in {sortEndTime - sortStartTime} seconds.")
 

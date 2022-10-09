@@ -149,8 +149,10 @@ def mergeFiles(filesCount):
             stoppedAt = 'b0.bin'
         endTime = time.time()
         print(f"Merging numbers into {seriesCount} series was completed. Another {endTime - startTime} seconds elapsed.")
-
-    os.remove('sorted.bin')
+    try:
+        os.remove('sorted.bin')
+    except:
+        pass
     os.rename(stoppedAt, 'sorted.bin')
     print(f"Sorting done. Check file 'sorted.bin' to see sorted contents of the initial file.")
 
