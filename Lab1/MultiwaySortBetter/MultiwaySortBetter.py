@@ -32,4 +32,4 @@ else:
     print(f"Total file size: {round((fileSize//1024) * 1000)/1000}KB.")
     print(f"Algorithm speed: {round(((fileSize/1073741824) / ((endTime - startTime) / 600)) * 100000)/100000}GB/10min")
 
-    func.clearGarbage()
+    func.clearGarbage(filesCount)

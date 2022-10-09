@@ -21,7 +21,7 @@ def createFile(infileName, filesCount, bytesPerBuffer):
     print(f"File generated in {round((endTime - startTime)*1000)/1000} seconds.")
 
 infileName = input('Enter the file name: ')
-totalBytes = int(input('Enter the file size in B: ')) #*1024*1024
+totalBytes = int(input('Enter the file size in B: '))*1024*1024
 
 max_space = psutil.virtual_memory().available * 0.8
 maxBytesPerBuffer = max_space - max_space % 4

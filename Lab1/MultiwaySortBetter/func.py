@@ -82,3 +82,5 @@ def clearGarbage(filesCount):
     for i in range(filesCount):
         try:
             os.remove(f'b{i}.bin')
+        except:
+            pass
