@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "MultiwaySort", "MultiwaySort\MultiwaySort.pyproj", "{BC09052E-B563-41E5-A17C-53C3E851C308}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "MultiwaySortBetter", "MultiwaySortBetter\MultiwaySortBetter.pyproj", "{6202799A-C0B2-4991-83CB-FCDD96007476}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "FileGenerator", "FileGenerator\FileGenerator.pyproj", "{2F5035D7-AA01-447D-95CF-A0C3E93ED5AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC09052E-B563-41E5-A17C-53C3E851C308}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC09052E-B563-41E5-A17C-53C3E851C308}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6202799A-C0B2-4991-83CB-FCDD96007476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6202799A-C0B2-4991-83CB-FCDD96007476}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F5035D7-AA01-447D-95CF-A0C3E93ED5AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F5035D7-AA01-447D-95CF-A0C3E93ED5AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E2AF4CF-5868-4EFF-8DB5-A329258C6E0A}
+	EndGlobalSection
+EndGlobal
