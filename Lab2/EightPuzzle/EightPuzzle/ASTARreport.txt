@@ -1,0 +1,180 @@
+---------------
+Max depth reached: 36
+Reached depth limit (failed to find a solution): False
+Dead ends encountered: 6
+States visited: 743
+Unvisited states left in memory: 478
+States generated: 1221
+States stored in memory: 1221
+---------------
+---------------
+Max depth reached: 26
+Reached depth limit (failed to find a solution): True
+Dead ends encountered: 3
+States visited: 237
+Unvisited states left in memory: 154
+States generated: 391
+States stored in memory: 391
+---------------
+---------------
+Max depth reached: 32
+Reached depth limit (failed to find a solution): False
+Dead ends encountered: 2
+States visited: 254
+Unvisited states left in memory: 171
+States generated: 425
+States stored in memory: 425
+---------------
+---------------
+Max depth reached: 66
+Reached depth limit (failed to find a solution): False
+Dead ends encountered: 20
+States visited: 1636
+Unvisited states left in memory: 1018
+States generated: 2654
+States stored in memory: 2654
+---------------
+---------------
+Max depth reached: 48
+Reached depth limit (failed to find a solution): False
+Dead ends encountered: 21
+States visited: 1464
+Unvisited states left in memory: 919
+States generated: 2383
+States stored in memory: 2383
+---------------
+---------------
+Max depth reached: 42
+Reached depth limit (failed to find a solution): False
+Dead ends encountered: 3
+States visited: 590
+Unvisited states left in memory: 385
+States generated: 975
+States stored in memory: 975
+---------------
+---------------
+Max depth reached: 50
+Reached depth limit (failed to find a solution): False
+Dead ends encountered: 11
+States visited: 891
+Unvisited states left in memory: 563
+States generated: 1454
+States stored in memory: 1454
+---------------
+---------------
+Max depth reached: 46
+Reached depth limit (failed to find a solution): False
+Dead ends encountered: 13
+States visited: 879
+Unvisited states left in memory: 568
+States generated: 1447
+States stored in memory: 1447
+---------------
+---------------
+Max depth reached: 56
+Reached depth limit (failed to find a solution): False
+Dead ends encountered: 19
+States visited: 1449
+Unvisited states left in memory: 924
+States generated: 2373
+States stored in memory: 2373
+---------------
+---------------
+Max depth reached: 50
+Reached depth limit (failed to find a solution): False
+Dead ends encountered: 11
+States visited: 1159
+Unvisited states left in memory: 741
+States generated: 1900
+States stored in memory: 1900
+---------------
+---------------
+Max depth reached: 38
+Reached depth limit (failed to find a solution): False
+Dead ends encountered: 2
+States visited: 400
+Unvisited states left in memory: 265
+States generated: 665
+States stored in memory: 665
+---------------
+---------------
+Max depth reached: 68
+Reached depth limit (failed to find a solution): False
+Dead ends encountered: 8
+States visited: 839
+Unvisited states left in memory: 532
+States generated: 1371
+States stored in memory: 1371
+---------------
+---------------
+Max depth reached: 46
+Reached depth limit (failed to find a solution): False
+Dead ends encountered: 20
+States visited: 1479
+Unvisited states left in memory: 940
+States generated: 2419
+States stored in memory: 2419
+---------------
+---------------
+Max depth reached: 54
+Reached depth limit (failed to find a solution): False
+Dead ends encountered: 25
+States visited: 2417
+Unvisited states left in memory: 1496
+States generated: 3913
+States stored in memory: 3913
+---------------
+---------------
+Max depth reached: 48
+Reached depth limit (failed to find a solution): False
+Dead ends encountered: 22
+States visited: 1559
+Unvisited states left in memory: 978
+States generated: 2537
+States stored in memory: 2537
+---------------
+---------------
+Max depth reached: 48
+Reached depth limit (failed to find a solution): False
+Dead ends encountered: 12
+States visited: 1167
+Unvisited states left in memory: 744
+States generated: 1911
+States stored in memory: 1911
+---------------
+---------------
+Max depth reached: 62
+Reached depth limit (failed to find a solution): False
+Dead ends encountered: 42
+States visited: 2150
+Unvisited states left in memory: 1338
+States generated: 3488
+States stored in memory: 3488
+---------------
+---------------
+Max depth reached: 24
+Reached depth limit (failed to find a solution): False
+Dead ends encountered: 4
+States visited: 534
+Unvisited states left in memory: 345
+States generated: 879
+States stored in memory: 879
+---------------
+---------------
+Max depth reached: 18
+Reached depth limit (failed to find a solution): False
+Dead ends encountered: 1
+States visited: 177
+Unvisited states left in memory: 121
+States generated: 298
+States stored in memory: 298
+---------------
+---------------
+Max depth reached: 44
+Reached depth limit (failed to find a solution): False
+Dead ends encountered: 6
+States visited: 841
+Unvisited states left in memory: 519
+States generated: 1360
+States stored in memory: 1360
+---------------
