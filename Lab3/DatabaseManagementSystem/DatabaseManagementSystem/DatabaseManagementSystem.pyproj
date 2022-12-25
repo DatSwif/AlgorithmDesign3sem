@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>3f0b049b-41cd-4f17-9774-abaaf82a460b</ProjectGuid>
+    <ProjectGuid>b02f12a9-1ae7-4989-b8ab-2d465c4d4b07</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>EightPuzzle.py</StartupFile>
+    <StartupFile>DatabaseManagementSystem.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>EightPuzzle</Name>
-    <RootNamespace>EightPuzzle</RootNamespace>
+    <Name>DatabaseManagementSystem</Name>
+    <RootNamespace>DatabaseManagementSystem</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,25 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Button.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="EightPuzzle.py" />
-    <Compile Include="GameBoard.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="GameScreen.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Keyboard.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Mouse.py">
-      <SubType>Code</SubType>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="BFSreport.txt" />
+    <Compile Include="DatabaseManagementSystem.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

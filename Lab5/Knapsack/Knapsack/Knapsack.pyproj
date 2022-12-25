@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>3f0b049b-41cd-4f17-9774-abaaf82a460b</ProjectGuid>
+    <ProjectGuid>13e01dd2-8154-4951-9f2a-61319ef0a6ba</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>EightPuzzle.py</StartupFile>
+    <StartupFile>Knapsack.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>EightPuzzle</Name>
-    <RootNamespace>EightPuzzle</RootNamespace>
+    <Name>Knapsack</Name>
+    <RootNamespace>Knapsack</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,25 +21,22 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Button.py">
+    <Compile Include="func.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="EightPuzzle.py" />
-    <Compile Include="GameBoard.py">
+    <Compile Include="Item.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="GameScreen.py">
+    <Compile Include="Knapsack.py" />
+    <Compile Include="plotting.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Keyboard.py">
+    <Compile Include="runScenarios.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Mouse.py">
+    <Compile Include="Solution.py">
       <SubType>Code</SubType>
     </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="BFSreport.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

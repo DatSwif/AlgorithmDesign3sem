@@ -178,3 +178,21 @@ Unvisited states left in memory: 924
 States generated: 2279
 States stored in memory: 2279
 ---------------
+---------------
+Max depth reached: 14
+Reached depth limit (failed to find a solution): False
+Dead ends encountered: 150
+States visited: 5145
+Unvisited states left in memory: 3226
+States generated: 8371
+States stored in memory: 8371
+---------------
+---------------
+Max depth reached: 14
+Reached depth limit (failed to find a solution): False
+Dead ends encountered: 195
+States visited: 5428
+Unvisited states left in memory: 3123
+States generated: 8551
+States stored in memory: 8551
+---------------

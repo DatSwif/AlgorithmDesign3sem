@@ -9,7 +9,7 @@ States stored in memory: 1221
 ---------------
 ---------------
 Max depth reached: 26
-Reached depth limit (failed to find a solution): True
+Reached depth limit (failed to find a solution): False
 Dead ends encountered: 3
 States visited: 237
 Unvisited states left in memory: 154
@@ -177,4 +177,22 @@ States visited: 841
 Unvisited states left in memory: 519
 States generated: 1360
 States stored in memory: 1360
+---------------
+---------------
+Max depth reached: 24
+Reached depth limit (failed to find a solution): False
+Dead ends encountered: 1
+States visited: 324
+Unvisited states left in memory: 219
+States generated: 543
+States stored in memory: 543
+---------------
+---------------
+Max depth reached: 44
+Reached depth limit (failed to find a solution): True
+Dead ends encountered: 16
+States visited: 940
+Unvisited states left in memory: 593
+States generated: 1533
+States stored in memory: 1533
 ---------------
