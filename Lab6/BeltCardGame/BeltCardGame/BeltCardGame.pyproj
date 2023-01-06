@@ -21,7 +21,55 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Action.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="BeltCardGame.py" />
+    <Compile Include="Button.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Card.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Computer.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controls.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Deck.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EndScreen.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameState.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Human.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="InGame.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Mouse.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Player.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ScrSwitcher.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Table.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TextBox.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
