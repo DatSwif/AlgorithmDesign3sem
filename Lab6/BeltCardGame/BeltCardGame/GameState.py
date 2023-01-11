@@ -63,8 +63,11 @@ class GameState(object):
 
         self.possibleMoves = self.getPossibleMoves()
         self.childStates = []
-        for move in self.possibleMoves:
-            self.childStates.append(self.getChildState(move))
+        if len(self.possibleMoves) == 0:
+            self.possibleMoves.append((2))
+        else:
+            for move in self.possibleMoves:
+                self.childStates.append(self.getChildState(move))
 
         if maximizingPlayer:
             maxEval = -9999
@@ -196,3 +199,5 @@ class GameState(object):
             newPlayerScores = self.playerScores[:]
             newPlayerScores[self.turn] += stackSize - 2
             return GameState(self.deckNames, newHands, newTable, newPlayerScores, (self.turn+1) % len(self.handNames), self.height-1)
+        elif move[0] == 2:
+            return GameState(self.deckNames, self.handNames, self.tableNames, self.playerScores, (self.turn+1) % len(self.handNames), self.height-1)

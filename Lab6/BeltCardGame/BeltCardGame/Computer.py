@@ -79,9 +79,12 @@ class Computer(Player.Player):
             height = 6 + self.difficulty
         )
         if simpleState.bestMoveInd is None:
-            return actions
-
-        move = simpleState.possibleMoves[simpleState.bestMoveInd]
+            if len(self.hand) == 0:
+                return actions
+            else:
+                move = (0, (self.hand[0].value, self.hand[0].suit), deck.isEmpty())
+        else:
+            move = simpleState.possibleMoves[simpleState.bestMoveInd]
 
         ###################
         #Вивести всі можливі ходи, які розглядав комп'ютер, та їх ціну
